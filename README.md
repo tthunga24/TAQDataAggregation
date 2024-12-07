@@ -1,2 +1,2 @@
 # TAQDataAggregation
-Custom aggregation of data from the NYSE TAQ data library.
+Quote data for a single trading day from the NYSE TAQ library can contain up to 10 million rows, and many of these entries capture pricing errors as well. This notebook allows users to customize parameters to filter and aggregate data from the raw sub millisecond level to their specified interval, and summarizes the data in the open, high, low, close format while removing imprecise data. By running raw data through this notebook, users will have much more useable and understandable data, and will also be ready to construct candlestick charts if necessary.
